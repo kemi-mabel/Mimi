@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EC51A5B284A251F001004FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC51A5A284A251F001004FC /* AppDelegate.swift */; };
+		5EC51A5D284A251F001004FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC51A5C284A251F001004FC /* SceneDelegate.swift */; };
+		5EC51A5F284A251F001004FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC51A5E284A251F001004FC /* ViewController.swift */; };
+		5EC51A62284A251F001004FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC51A60284A251F001004FC /* Main.storyboard */; };
+		5EC51A64284A2522001004FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC51A63284A2522001004FC /* Assets.xcassets */; };
+		5EC51A67284A2522001004FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC51A65284A2522001004FC /* LaunchScreen.storyboard */; };
+		5EC51A72284A2522001004FC /* MimiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC51A71284A2522001004FC /* MimiTests.swift */; };
+		5EC51A7C284A2522001004FC /* MimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC51A7B284A2522001004FC /* MimiUITests.swift */; };
+		5EC51A7E284A2522001004FC /* MimiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC51A7D284A2522001004FC /* MimiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EC51A6E284A2522001004FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC51A4F284A251F001004FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EC51A56284A251F001004FC;
+			remoteInfo = Mimi;
+		};
+		5EC51A78284A2522001004FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC51A4F284A251F001004FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EC51A56284A251F001004FC;
+			remoteInfo = Mimi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EC51A57284A251F001004FC /* Mimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC51A5A284A251F001004FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EC51A5C284A251F001004FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5EC51A5E284A251F001004FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EC51A61284A251F001004FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EC51A63284A2522001004FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EC51A66284A2522001004FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EC51A68284A2522001004FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC51A6D284A2522001004FC /* MimiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MimiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC51A71284A2522001004FC /* MimiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimiTests.swift; sourceTree = "<group>"; };
+		5EC51A77284A2522001004FC /* MimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MimiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC51A7B284A2522001004FC /* MimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimiUITests.swift; sourceTree = "<group>"; };
+		5EC51A7D284A2522001004FC /* MimiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EC51A54284A251F001004FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC51A6A284A2522001004FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC51A74284A2522001004FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EC51A4E284A251F001004FC = {
+			isa = PBXGroup;
+			children = (
+				5EC51A59284A251F001004FC /* Mimi */,
+				5EC51A70284A2522001004FC /* MimiTests */,
+				5EC51A7A284A2522001004FC /* MimiUITests */,
+				5EC51A58284A251F001004FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EC51A58284A251F001004FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EC51A57284A251F001004FC /* Mimi.app */,
+				5EC51A6D284A2522001004FC /* MimiTests.xctest */,
+				5EC51A77284A2522001004FC /* MimiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EC51A59284A251F001004FC /* Mimi */ = {
+			isa = PBXGroup;
+			children = (
+				5EC51A5A284A251F001004FC /* AppDelegate.swift */,
+				5EC51A5C284A251F001004FC /* SceneDelegate.swift */,
+				5EC51A5E284A251F001004FC /* ViewController.swift */,
+				5EC51A60284A251F001004FC /* Main.storyboard */,
+				5EC51A63284A2522001004FC /* Assets.xcassets */,
+				5EC51A65284A2522001004FC /* LaunchScreen.storyboard */,
+				5EC51A68284A2522001004FC /* Info.plist */,
+			);
+			path = Mimi;
+			sourceTree = "<group>";
+		};
+		5EC51A70284A2522001004FC /* MimiTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EC51A71284A2522001004FC /* MimiTests.swift */,
+			);
+			path = MimiTests;
+			sourceTree = "<group>";
+		};
+		5EC51A7A284A2522001004FC /* MimiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EC51A7B284A2522001004FC /* MimiUITests.swift */,
+				5EC51A7D284A2522001004FC /* MimiUITestsLaunchTests.swift */,
+			);
+			path = MimiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EC51A56284A251F001004FC /* Mimi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC51A81284A2522001004FC /* Build configuration list for PBXNativeTarget "Mimi" */;
+			buildPhases = (
+				5EC51A53284A251F001004FC /* Sources */,
+				5EC51A54284A251F001004FC /* Frameworks */,
+				5EC51A55284A251F001004FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mimi;
+			productName = Mimi;
+			productReference = 5EC51A57284A251F001004FC /* Mimi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EC51A6C284A2522001004FC /* MimiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC51A84284A2522001004FC /* Build configuration list for PBXNativeTarget "MimiTests" */;
+			buildPhases = (
+				5EC51A69284A2522001004FC /* Sources */,
+				5EC51A6A284A2522001004FC /* Frameworks */,
+				5EC51A6B284A2522001004FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC51A6F284A2522001004FC /* PBXTargetDependency */,
+			);
+			name = MimiTests;
+			productName = MimiTests;
+			productReference = 5EC51A6D284A2522001004FC /* MimiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EC51A76284A2522001004FC /* MimiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC51A87284A2522001004FC /* Build configuration list for PBXNativeTarget "MimiUITests" */;
+			buildPhases = (
+				5EC51A73284A2522001004FC /* Sources */,
+				5EC51A74284A2522001004FC /* Frameworks */,
+				5EC51A75284A2522001004FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EC51A79284A2522001004FC /* PBXTargetDependency */,
+			);
+			name = MimiUITests;
+			productName = MimiUITests;
+			productReference = 5EC51A77284A2522001004FC /* MimiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EC51A4F284A251F001004FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5EC51A56284A251F001004FC = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					5EC51A6C284A2522001004FC = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 5EC51A56284A251F001004FC;
+					};
+					5EC51A76284A2522001004FC = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 5EC51A56284A251F001004FC;
+					};
+				};
+			};
+			buildConfigurationList = 5EC51A52284A251F001004FC /* Build configuration list for PBXProject "Mimi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EC51A4E284A251F001004FC;
+			productRefGroup = 5EC51A58284A251F001004FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EC51A56284A251F001004FC /* Mimi */,
+				5EC51A6C284A2522001004FC /* MimiTests */,
+				5EC51A76284A2522001004FC /* MimiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EC51A55284A251F001004FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC51A67284A2522001004FC /* LaunchScreen.storyboard in Resources */,
+				5EC51A64284A2522001004FC /* Assets.xcassets in Resources */,
+				5EC51A62284A251F001004FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC51A6B284A2522001004FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC51A75284A2522001004FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EC51A53284A251F001004FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC51A5F284A251F001004FC /* ViewController.swift in Sources */,
+				5EC51A5B284A251F001004FC /* AppDelegate.swift in Sources */,
+				5EC51A5D284A251F001004FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC51A69284A2522001004FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC51A72284A2522001004FC /* MimiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC51A73284A2522001004FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC51A7E284A2522001004FC /* MimiUITestsLaunchTests.swift in Sources */,
+				5EC51A7C284A2522001004FC /* MimiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EC51A6F284A2522001004FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EC51A56284A251F001004FC /* Mimi */;
+			targetProxy = 5EC51A6E284A2522001004FC /* PBXContainerItemProxy */;
+		};
+		5EC51A79284A2522001004FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EC51A56284A251F001004FC /* Mimi */;
+			targetProxy = 5EC51A78284A2522001004FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EC51A60284A251F001004FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EC51A61284A251F001004FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EC51A65284A2522001004FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EC51A66284A2522001004FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EC51A7F284A2522001004FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EC51A80284A2522001004FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EC51A82284A2522001004FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99T7X23463;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mimi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oluwakemi.onajinrin.Mimi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EC51A83284A2522001004FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99T7X23463;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mimi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oluwakemi.onajinrin.Mimi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EC51A85284A2522001004FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99T7X23463;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oluwakemi.onajinrin.MimiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mimi.app/Mimi";
+			};
+			name = Debug;
+		};
+		5EC51A86284A2522001004FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99T7X23463;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oluwakemi.onajinrin.MimiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mimi.app/Mimi";
+			};
+			name = Release;
+		};
+		5EC51A88284A2522001004FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99T7X23463;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oluwakemi.onajinrin.MimiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mimi;
+			};
+			name = Debug;
+		};
+		5EC51A89284A2522001004FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99T7X23463;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oluwakemi.onajinrin.MimiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mimi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EC51A52284A251F001004FC /* Build configuration list for PBXProject "Mimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC51A7F284A2522001004FC /* Debug */,
+				5EC51A80284A2522001004FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC51A81284A2522001004FC /* Build configuration list for PBXNativeTarget "Mimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC51A82284A2522001004FC /* Debug */,
+				5EC51A83284A2522001004FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC51A84284A2522001004FC /* Build configuration list for PBXNativeTarget "MimiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC51A85284A2522001004FC /* Debug */,
+				5EC51A86284A2522001004FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC51A87284A2522001004FC /* Build configuration list for PBXNativeTarget "MimiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC51A88284A2522001004FC /* Debug */,
+				5EC51A89284A2522001004FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EC51A4F284A251F001004FC /* Project object */;
+}
