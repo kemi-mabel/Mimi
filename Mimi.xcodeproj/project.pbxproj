@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5EC51A5B284A251F001004FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC51A5A284A251F001004FC /* AppDelegate.swift */; };
+		04842B0B2643BF977FE3D521 /* Pods_MimiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD05DE2F53A258FC9549B0D /* Pods_MimiTests.framework */; };
+		5E7EE48C284E481E00C3C8E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E7EE48B284E481E00C3C8E2 /* GoogleService-Info.plist */; };
 		5EC51A5D284A251F001004FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC51A5C284A251F001004FC /* SceneDelegate.swift */; };
 		5EC51A5F284A251F001004FC /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC51A5E284A251F001004FC /* ConversationsViewController.swift */; };
 		5EC51A62284A251F001004FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC51A60284A251F001004FC /* Main.storyboard */; };
@@ -22,6 +23,10 @@
 		5EE91561284B9B3200A2ABE1 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE91560284B9B3200A2ABE1 /* VideoPlayerViewController.swift */; };
 		5EE91563284B9B9600A2ABE1 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE91562284B9B9600A2ABE1 /* NewConversationViewController.swift */; };
 		5EE91565284B9BA700A2ABE1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE91564284B9BA700A2ABE1 /* ProfileViewController.swift */; };
+		5EE91567284BB0FD00A2ABE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC51A5A284A251F001004FC /* AppDelegate.swift */; };
+		5EE915A5284D199400A2ABE1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE915A4284D199400A2ABE1 /* Extensions.swift */; };
+		95B4530DE92BE11015622D7E /* Pods_Mimi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F20D99D83C447040EEC3F8 /* Pods_Mimi.framework */; };
+		BB48DD6E62619597C6A21F04 /* Pods_Mimi_MimiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C201B0CAD669165DF056FF66 /* Pods_Mimi_MimiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19F20D99D83C447040EEC3F8 /* Pods_Mimi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mimi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		270A42E3FFB46739E7BF7589 /* Pods-MimiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MimiTests.debug.xcconfig"; path = "Target Support Files/Pods-MimiTests/Pods-MimiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51657C99681726AB897AEA98 /* Pods-Mimi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mimi.release.xcconfig"; path = "Target Support Files/Pods-Mimi/Pods-Mimi.release.xcconfig"; sourceTree = "<group>"; };
+		5AD05DE2F53A258FC9549B0D /* Pods_MimiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MimiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7EE48B284E481E00C3C8E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5EC51A57284A251F001004FC /* Mimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC51A5A284A251F001004FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC51A5C284A251F001004FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +71,12 @@
 		5EE91560284B9B3200A2ABE1 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		5EE91562284B9B9600A2ABE1 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		5EE91564284B9BA700A2ABE1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5EE915A4284D199400A2ABE1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		663439225013F37475A9B998 /* Pods-Mimi-MimiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mimi-MimiUITests.release.xcconfig"; path = "Target Support Files/Pods-Mimi-MimiUITests/Pods-Mimi-MimiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B13F2CBC64E49B157E98A1E /* Pods-Mimi-MimiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mimi-MimiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mimi-MimiUITests/Pods-Mimi-MimiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F1833309D56B59EE090B1D8 /* Pods-MimiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MimiTests.release.xcconfig"; path = "Target Support Files/Pods-MimiTests/Pods-MimiTests.release.xcconfig"; sourceTree = "<group>"; };
+		C201B0CAD669165DF056FF66 /* Pods_Mimi_MimiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mimi_MimiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA5B86B78F5921697F8FB1C /* Pods-Mimi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mimi.debug.xcconfig"; path = "Target Support Files/Pods-Mimi/Pods-Mimi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B4530DE92BE11015622D7E /* Pods_Mimi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04842B0B2643BF977FE3D521 /* Pods_MimiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB48DD6E62619597C6A21F04 /* Pods_Mimi_MimiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +114,8 @@
 				5EC51A70284A2522001004FC /* MimiTests */,
 				5EC51A7A284A2522001004FC /* MimiUITests */,
 				5EC51A58284A251F001004FC /* Products */,
+				FFE2DAE02681BC4EEA208B77 /* Pods */,
+				CC7FB4207E725AB9C85B5ADF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +132,7 @@
 		5EC51A59284A251F001004FC /* Mimi */ = {
 			isa = PBXGroup;
 			children = (
+				5E7EE48B284E481E00C3C8E2 /* GoogleService-Info.plist */,
 				5EE91557284B980E00A2ABE1 /* Resources */,
 				5EE91556284B97F600A2ABE1 /* Views */,
 				5EE91555284B97EA00A2ABE1 /* Models */,
@@ -142,8 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				5EC51A5E284A251F001004FC /* ConversationsViewController.swift */,
-				5EE9155A284B9AB200A2ABE1 /* LoginViewController.swift */,
-				5EE9155C284B9AC300A2ABE1 /* RegisterViewController.swift */,
+				5EE91566284BA2AD00A2ABE1 /* Login */,
 				5EE9155E284B9B1D00A2ABE1 /* PhotoViewerViewController.swift */,
 				5EE91560284B9B3200A2ABE1 /* VideoPlayerViewController.swift */,
 				5EE91562284B9B9600A2ABE1 /* NewConversationViewController.swift */,
@@ -180,6 +201,7 @@
 			children = (
 				5EC51A5A284A251F001004FC /* AppDelegate.swift */,
 				5EC51A5C284A251F001004FC /* SceneDelegate.swift */,
+				5EE915A4284D199400A2ABE1 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -193,6 +215,38 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		5EE91566284BA2AD00A2ABE1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5EE9155A284B9AB200A2ABE1 /* LoginViewController.swift */,
+				5EE9155C284B9AC300A2ABE1 /* RegisterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CC7FB4207E725AB9C85B5ADF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19F20D99D83C447040EEC3F8 /* Pods_Mimi.framework */,
+				C201B0CAD669165DF056FF66 /* Pods_Mimi_MimiUITests.framework */,
+				5AD05DE2F53A258FC9549B0D /* Pods_MimiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFE2DAE02681BC4EEA208B77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFA5B86B78F5921697F8FB1C /* Pods-Mimi.debug.xcconfig */,
+				51657C99681726AB897AEA98 /* Pods-Mimi.release.xcconfig */,
+				8B13F2CBC64E49B157E98A1E /* Pods-Mimi-MimiUITests.debug.xcconfig */,
+				663439225013F37475A9B998 /* Pods-Mimi-MimiUITests.release.xcconfig */,
+				270A42E3FFB46739E7BF7589 /* Pods-MimiTests.debug.xcconfig */,
+				8F1833309D56B59EE090B1D8 /* Pods-MimiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EC51A81284A2522001004FC /* Build configuration list for PBXNativeTarget "Mimi" */;
 			buildPhases = (
+				6271EAB162764157607A8434 /* [CP] Check Pods Manifest.lock */,
 				5EC51A53284A251F001004FC /* Sources */,
 				5EC51A54284A251F001004FC /* Frameworks */,
 				5EC51A55284A251F001004FC /* Resources */,
+				0B81E67C2FD4AA3AF7367841 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EC51A84284A2522001004FC /* Build configuration list for PBXNativeTarget "MimiTests" */;
 			buildPhases = (
+				943C27D3BC96A24650FCAD65 /* [CP] Check Pods Manifest.lock */,
 				5EC51A69284A2522001004FC /* Sources */,
 				5EC51A6A284A2522001004FC /* Frameworks */,
 				5EC51A6B284A2522001004FC /* Resources */,
@@ -235,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EC51A87284A2522001004FC /* Build configuration list for PBXNativeTarget "MimiUITests" */;
 			buildPhases = (
+				E6EB68CE499D6CE39559FCE0 /* [CP] Check Pods Manifest.lock */,
 				5EC51A73284A2522001004FC /* Sources */,
 				5EC51A74284A2522001004FC /* Frameworks */,
 				5EC51A75284A2522001004FC /* Resources */,
+				45FFDB78731E2FA11C723207 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -273,7 +332,7 @@
 				};
 			};
 			buildConfigurationList = 5EC51A52284A251F001004FC /* Build configuration list for PBXProject "Mimi" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -298,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EC51A67284A2522001004FC /* LaunchScreen.storyboard in Resources */,
+				5E7EE48C284E481E00C3C8E2 /* GoogleService-Info.plist in Resources */,
 				5EC51A64284A2522001004FC /* Assets.xcassets in Resources */,
 				5EC51A62284A251F001004FC /* Main.storyboard in Resources */,
 			);
@@ -319,17 +379,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B81E67C2FD4AA3AF7367841 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mimi/Pods-Mimi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mimi/Pods-Mimi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mimi/Pods-Mimi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45FFDB78731E2FA11C723207 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mimi-MimiUITests/Pods-Mimi-MimiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mimi-MimiUITests/Pods-Mimi-MimiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mimi-MimiUITests/Pods-Mimi-MimiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6271EAB162764157607A8434 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mimi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		943C27D3BC96A24650FCAD65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MimiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6EB68CE499D6CE39559FCE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mimi-MimiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5EC51A53284A251F001004FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EE91567284BB0FD00A2ABE1 /* AppDelegate.swift in Sources */,
 				5EE9155B284B9AB200A2ABE1 /* LoginViewController.swift in Sources */,
 				5EE9155D284B9AC300A2ABE1 /* RegisterViewController.swift in Sources */,
 				5EE91563284B9B9600A2ABE1 /* NewConversationViewController.swift in Sources */,
 				5EC51A5F284A251F001004FC /* ConversationsViewController.swift in Sources */,
+				5EE915A5284D199400A2ABE1 /* Extensions.swift in Sources */,
 				5EE91561284B9B3200A2ABE1 /* VideoPlayerViewController.swift in Sources */,
-				5EC51A5B284A251F001004FC /* AppDelegate.swift in Sources */,
 				5EE91565284B9BA700A2ABE1 /* ProfileViewController.swift in Sources */,
 				5EC51A5D284A251F001004FC /* SceneDelegate.swift in Sources */,
 				5EE9155F284B9B1D00A2ABE1 /* PhotoViewerViewController.swift in Sources */,
@@ -504,6 +668,7 @@
 		};
 		5EC51A82284A2522001004FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA5B86B78F5921697F8FB1C /* Pods-Mimi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -534,6 +699,7 @@
 		};
 		5EC51A83284A2522001004FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51657C99681726AB897AEA98 /* Pods-Mimi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -564,6 +730,7 @@
 		};
 		5EC51A85284A2522001004FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 270A42E3FFB46739E7BF7589 /* Pods-MimiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -584,6 +751,7 @@
 		};
 		5EC51A86284A2522001004FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F1833309D56B59EE090B1D8 /* Pods-MimiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -604,6 +772,7 @@
 		};
 		5EC51A88284A2522001004FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B13F2CBC64E49B157E98A1E /* Pods-Mimi-MimiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -622,6 +791,7 @@
 		};
 		5EC51A89284A2522001004FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663439225013F37475A9B998 /* Pods-Mimi-MimiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
