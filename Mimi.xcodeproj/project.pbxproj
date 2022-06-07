@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04842B0B2643BF977FE3D521 /* Pods_MimiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD05DE2F53A258FC9549B0D /* Pods_MimiTests.framework */; };
 		5E7EE48C284E481E00C3C8E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E7EE48B284E481E00C3C8E2 /* GoogleService-Info.plist */; };
+		5E7EE48E284FEB4000C3C8E2 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7EE48D284FEB4000C3C8E2 /* DatabaseManager.swift */; };
 		5EC51A5D284A251F001004FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC51A5C284A251F001004FC /* SceneDelegate.swift */; };
 		5EC51A5F284A251F001004FC /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC51A5E284A251F001004FC /* ConversationsViewController.swift */; };
 		5EC51A62284A251F001004FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC51A60284A251F001004FC /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		51657C99681726AB897AEA98 /* Pods-Mimi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mimi.release.xcconfig"; path = "Target Support Files/Pods-Mimi/Pods-Mimi.release.xcconfig"; sourceTree = "<group>"; };
 		5AD05DE2F53A258FC9549B0D /* Pods_MimiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MimiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7EE48B284E481E00C3C8E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E7EE48D284FEB4000C3C8E2 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		5EC51A57284A251F001004FC /* Mimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC51A5A284A251F001004FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC51A5C284A251F001004FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				5EC51A5A284A251F001004FC /* AppDelegate.swift */,
 				5EC51A5C284A251F001004FC /* SceneDelegate.swift */,
 				5EE915A4284D199400A2ABE1 /* Extensions.swift */,
+				5E7EE48D284FEB4000C3C8E2 /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -488,6 +491,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EE91567284BB0FD00A2ABE1 /* AppDelegate.swift in Sources */,
+				5E7EE48E284FEB4000C3C8E2 /* DatabaseManager.swift in Sources */,
 				5EE9155B284B9AB200A2ABE1 /* LoginViewController.swift in Sources */,
 				5EE9155D284B9AC300A2ABE1 /* RegisterViewController.swift in Sources */,
 				5EE91563284B9B9600A2ABE1 /* NewConversationViewController.swift in Sources */,
