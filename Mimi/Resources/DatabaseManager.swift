@@ -23,7 +23,10 @@ final class DatabaseManager {
 extension DatabaseManager {
     
     public func doesUserExists(with email: String, completion: @escaping ((Bool) -> Void))  {
-        database.child(email).observeSingleEvent(of: .value, with: { snapshot in
+        var safeEmail = email.replacingOccurrences(of: ".", with: "-")
+        safeEmail = safeEmail.replacingOccurrences(of: "@", with: "-")
+       
+        database.child(safeEmail).observeSingleEvent(of: .value, with: { snapshot in // return a snapsot
             guard snapshot.value as? String != nil else {
                 completion(false)
                  return
@@ -31,9 +34,10 @@ extension DatabaseManager {
             completion(true)
         })
     }
-    /// Insers new user to database
+    // Inserts new user to database
     public func insertUser(with user: ChatAppUser) {
-        database.child(user.emailAddress).setValue(["first_name" : user.firstname, "last_name": user.lastname])
+        database.child(user.safeEmail).setValue(["first_name" : user.firstname,
+                                                 "last_name": user.lastname])
         
     }
     
@@ -43,6 +47,11 @@ extension DatabaseManager {
         let lastname: String
         let emailAddress: String
         //        let profilePictureUrl:String
+        var safeEmail: String {
+            var safeEmail = emailAddress.replacingOccurrences(of: ".", with: "-")
+            safeEmail = safeEmail.replacingOccurrences(of: "@", with: "-")
+            return safeEmail
+        }
     }
     
     // child refers to key we want to write data to

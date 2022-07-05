@@ -14,14 +14,14 @@ class ConversationsViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .red
         // Do any additional setup after loading the view.
-        
-        DatabaseManager.shared.
+//        validateAuth()
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         validateAuth()
     }
+    
     private func validateAuth() {
         if FirebaseAuth.Auth.auth().currentUser == nil{
             
